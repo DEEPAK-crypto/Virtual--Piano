@@ -13,6 +13,17 @@ var x = document.getElementById("f4");
 var c = document.getElementById("g3");
 var v = document.getElementById("g4");
 
+var q = document.getElementById("c3s");
+var w = document.getElementById("d3s");
+var e = document.getElementById("f3s");
+var r = document.getElementById("g3s");
+var t = document.getElementById("a3s");
+var y = document.getElementById("c4s");
+var u = document.getElementById("d4s");
+var i = document.getElementById("f4s");
+var o = document.getElementById("g4s");
+var p = document.getElementById("a4s");
+
 
 document.addEventListener("keydown", function(key) {
     if (key.which == 72) {
@@ -113,6 +124,76 @@ document.addEventListener("keydown", function(key) {
         else {
             v.currentTime = 0;
         }
+    } else if (key.which == 81) {
+        document.querySelector(".c3s").classList.toggle("borderr");
+        if (q.paused)
+            q.play();
+        else {
+            q.currentTime = 0;
+        }
+    } else if (key.which == 87) {
+        document.querySelector(".d3s").classList.toggle("borderr");
+        if (w.paused)
+            w.play();
+        else {
+            w.currentTime = 0;
+        }
+    } else if (key.which == 69) {
+        document.querySelector(".f3s").classList.toggle("borderr");
+        if (e.paused)
+            e.play();
+        else {
+            e.currentTime = 0;
+        }
+    } else if (key.which == 82) {
+        document.querySelector(".g3s").classList.toggle("borderr");
+        if (r.paused)
+            r.play();
+        else {
+            r.currentTime = 0;
+        }
+    } else if (key.which == 84) {
+        document.querySelector(".a3s").classList.toggle("borderr");
+        if (t.paused)
+            t.play();
+        else {
+            t.currentTime = 0;
+        }
+    } else if (key.which == 89) {
+        document.querySelector(".c4s").classList.toggle("borderr");
+        if (y.paused)
+            y.play();
+        else {
+            y.currentTime = 0;
+        }
+    } else if (key.which == 85) {
+        document.querySelector(".d4s").classList.toggle("borderr");
+        if (u.paused)
+            u.play();
+        else {
+            u.currentTime = 0;
+        }
+    } else if (key.which == 73) {
+        document.querySelector(".f4s").classList.toggle("borderr");
+        if (i.paused)
+            i.play();
+        else {
+            i.currentTime = 0;
+        }
+    } else if (key.which == 79) {
+        document.querySelector(".g4s").classList.toggle("borderr");
+        if (o.paused)
+            o.play();
+        else {
+            o.currentTime = 0;
+        }
+    } else if (key.which == 80) {
+        document.querySelector(".a4s").classList.toggle("borderr");
+        if (p.paused)
+            p.play();
+        else {
+            p.currentTime = 0;
+        }
     }
 
 
@@ -146,4 +227,25 @@ document.addEventListener("keyup", function(key) {
         document.querySelector(".b3").classList.toggle("border");
     else if (key.which == 65)
         document.querySelector(".c3").classList.toggle("border");
+
+    else if (key.which == 81)
+        document.querySelector(".c3s").classList.toggle("borderr");
+    else if (key.which == 87)
+        document.querySelector(".d3s").classList.toggle("borderr");
+    else if (key.which == 69)
+        document.querySelector(".f3s").classList.toggle("borderr");
+    else if (key.which == 82)
+        document.querySelector(".g3s").classList.toggle("borderr");
+    else if (key.which == 84)
+        document.querySelector(".a3s").classList.toggle("borderr");
+    else if (key.which == 89)
+        document.querySelector(".c4s").classList.toggle("borderr");
+    else if (key.which == 85)
+        document.querySelector(".d4s").classList.toggle("borderr");
+    else if (key.which == 73)
+        document.querySelector(".f4s").classList.toggle("borderr");
+    else if (key.which == 79)
+        document.querySelector(".g4s").classList.toggle("borderr");
+    else if (key.which == 80)
+        document.querySelector(".a4s").classList.toggle("borderr");
 })
