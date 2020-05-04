@@ -16,6 +16,7 @@ audio {
     margin: 100px auto;
     display: grid;
     background: none;
+    justify-content: center;
     grid-template-columns: auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto;
 }
 
@@ -26,6 +27,7 @@ audio {
     background-color: white;
     display: inline-block;
     border-radius: 13px;
+    margin: 5px;
 }
 
 body {
@@ -36,9 +38,13 @@ body {
     background-image: linear-gradient(120deg, #a6c0fe 0%, #f68084 100%);
 }
 
+.borderr {
+    border: gray solid 5px;
+}
+
 .border {
     border: gray solid 5px;
-    height: 90%;
+    height: 95%;
 }
 
 #head {
@@ -46,17 +52,29 @@ body {
     padding: 0;
     background: none;
     height: 100px;
+    font-family: 'Pacifico', cursive;
+    letter-spacing: 0.3em;
 }
 
 .black {
     background-color: black;
-    height: 60%;
+    height: 150px;
     width: 40px;
+    box-sizing: border-box;
     display: inline-block;
     position: relative;
     border-radius: 10px;
+    bottom: 100px;
+    right: -35px;
 }
 
 h1 {
     line-height: 100px;
+}
+
+#black {
+    color: white;
+    position: relative;
+    bottom: -100px;
+    right: 0px;
 }
