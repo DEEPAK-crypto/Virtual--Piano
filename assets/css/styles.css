@@ -1,3 +1,62 @@
 audio {
     display: none;
 }
+
+#key {
+    color: black;
+    position: relative;
+    bottom: -170px;
+    right: 0px;
+    font-size: xx-large;
+}
+
+#container {
+    height: 280px;
+    width: 60%;
+    margin: 100px auto;
+    display: grid;
+    background: none;
+    grid-template-columns: auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto;
+}
+
+.key {
+    height: 100%;
+    width: 50px;
+    box-sizing: border-box;
+    background-color: white;
+    display: inline-block;
+    border-radius: 13px;
+}
+
+body {
+    margin: 0;
+    background: black;
+    color: white;
+    text-align: center;
+    background-image: linear-gradient(120deg, #a6c0fe 0%, #f68084 100%);
+}
+
+.border {
+    border: gray solid 5px;
+    height: 90%;
+}
+
+#head {
+    margin-top: -20px;
+    padding: 0;
+    background: none;
+    height: 100px;
+}
+
+.black {
+    background-color: black;
+    height: 60%;
+    width: 40px;
+    display: inline-block;
+    position: relative;
+    border-radius: 10px;
+}
+
+h1 {
+    line-height: 100px;
+}
